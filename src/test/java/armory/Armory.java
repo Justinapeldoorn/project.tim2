@@ -8,7 +8,7 @@ public class Armory {
     public static void main(String[] args) {
         WebDriver driver;
 
-        System.setProperty("webdriver.chrome.driver", "D:/repository/project.tim/chromedriver/chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "C:/repository/project.tim2/chromedriver/chromedriver.exe");
 
         driver = new ChromeDriver();
         driver.navigate().to("https://worldofwarcraft.com/en-gb/");
