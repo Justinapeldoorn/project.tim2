@@ -1,0 +1,518 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:nl"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Achtergrond",
+        "steps": [
+          {
+            "result": {
+              "duration": 774254997,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ik ben op de homepage van het RDW",
+            "match": {
+              "location": "RdwHomepageSteps.ik_ben_op_de_homepage_van_het_RDW()"
+            },
+            "keyword": "Gegeven "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2288507367,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RdwHomepageSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Links Auto, Motor, Brommer",
+        "description": "",
+        "id": "werking-van-de-links-op-de-homepage;links-auto,-motor,-brommer;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 618633779,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RdwHomepageSteps.sluitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Abstract Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 276646321,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "ik op de link \"Auto\" klik",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Auto",
+                  "offset": 15
+                }
+              ],
+              "location": "RdwHomepageSteps.naamMethode(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Als "
+          },
+          {
+            "result": {
+              "duration": 14472813,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verwacht ik dat de titel \"Auto\" | RDW is",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Auto",
+                  "offset": 26
+                }
+              ],
+              "location": "RdwHomepageSteps.verwacht_ik_dat_de_titel_RDW_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Dan "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Rdw"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Achtergrond",
+        "steps": [
+          {
+            "result": {
+              "duration": 891678751,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ik ben op de homepage van het RDW",
+            "match": {
+              "location": "RdwHomepageSteps.ik_ben_op_de_homepage_van_het_RDW()"
+            },
+            "keyword": "Gegeven "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1872302401,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RdwHomepageSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "Links Auto, Motor, Brommer",
+        "description": "",
+        "id": "werking-van-de-links-op-de-homepage;links-auto,-motor,-brommer;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 603530922,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RdwHomepageSteps.sluitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Abstract Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 256885402,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "ik op de link \"Motor\" klik",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Motor",
+                  "offset": 15
+                }
+              ],
+              "location": "RdwHomepageSteps.naamMethode(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Als "
+          },
+          {
+            "result": {
+              "duration": 4377029,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verwacht ik dat de titel \"Motor\" | RDW is",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Motor",
+                  "offset": 26
+                }
+              ],
+              "location": "RdwHomepageSteps.verwacht_ik_dat_de_titel_RDW_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Dan "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Rdw"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Achtergrond",
+        "steps": [
+          {
+            "result": {
+              "duration": 2361266529,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ik ben op de homepage van het RDW",
+            "match": {
+              "location": "RdwHomepageSteps.ik_ben_op_de_homepage_van_het_RDW()"
+            },
+            "keyword": "Gegeven "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1877767430,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RdwHomepageSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Links Auto, Motor, Brommer",
+        "description": "",
+        "id": "werking-van-de-links-op-de-homepage;links-auto,-motor,-brommer;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 614760501,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RdwHomepageSteps.sluitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Abstract Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 235809213,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "ik op de link \"Brommer of scooter\" klik",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brommer of scooter",
+                  "offset": 15
+                }
+              ],
+              "location": "RdwHomepageSteps.naamMethode(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Als "
+          },
+          {
+            "result": {
+              "duration": 4242203,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verwacht ik dat de titel \"Brommer\" | RDW is",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Brommer",
+                  "offset": 26
+                }
+              ],
+              "location": "RdwHomepageSteps.verwacht_ik_dat_de_titel_RDW_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Dan "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Rdw"
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Achtergrond",
+        "steps": [
+          {
+            "result": {
+              "duration": 745707024,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ik ben op de homepage van het RDW",
+            "match": {
+              "location": "RdwHomepageSteps.ik_ben_op_de_homepage_van_het_RDW()"
+            },
+            "keyword": "Gegeven "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1872451165,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RdwHomepageSteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 18,
+        "name": "Links Auto, Motor, Brommer",
+        "description": "",
+        "id": "werking-van-de-links-op-de-homepage;links-auto,-motor,-brommer;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 618125762,
+              "status": "passed"
+            },
+            "match": {
+              "location": "RdwHomepageSteps.sluitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Abstract Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 271146305,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "ik op de link \"Vaartuigen\" klik",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vaartuigen",
+                  "offset": 15
+                }
+              ],
+              "location": "RdwHomepageSteps.naamMethode(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Als "
+          },
+          {
+            "result": {
+              "duration": 3857919,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verwacht ik dat de titel \"Vaartuigen\" | RDW is",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Vaartuigen",
+                  "offset": 26
+                }
+              ],
+              "location": "RdwHomepageSteps.verwacht_ik_dat_de_titel_RDW_is(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "Dan "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Rdw"
+          }
+        ]
+      }
+    ],
+    "name": "Werking van de links op de homepage",
+    "description": "",
+    "id": "werking-van-de-links-op-de-homepage",
+    "keyword": "Functionaliteit",
+    "uri": "Rdw.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@Rdw"
+      }
+    ]
+  },
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "#language:nl"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1883003482,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ArmorySteps.openBrowser()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Navigeren naar Childplease",
+        "description": "",
+        "id": "werking-van-de-armory-site;navigeren-naar-childplease",
+        "after": [
+          {
+            "result": {
+              "duration": 690551555,
+              "status": "passed"
+            },
+            "match": {
+              "location": "ArmorySteps.sluitBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2225854513,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Ik ben op de armory website",
+            "match": {
+              "location": "ArmorySteps.ik_ben_op_de_armory_website()"
+            },
+            "keyword": "Gegeven "
+          },
+          {
+            "result": {
+              "duration": 782889022,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "ik op Childplease zoek",
+            "match": {
+              "location": "ArmorySteps.ik_op_Childplease_zoek()"
+            },
+            "keyword": "Als "
+          },
+          {
+            "result": {
+              "duration": 1234881924,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verwacht ik dat de browser naar de pagina van Childplease - EU Silvermoon navigeert",
+            "match": {
+              "location": "ArmorySteps.verwacht_ik_dat_de_browser_naar_de_pagina_van_Childplease_EU_Silvermoon_navigeert()"
+            },
+            "keyword": "Dan "
+          }
+        ]
+      }
+    ],
+    "name": "Werking van de armory site",
+    "description": "",
+    "id": "werking-van-de-armory-site",
+    "keyword": "Functionaliteit",
+    "uri": "armory.feature",
+    "tags": [
+      {
+        "line": 3,
+        "name": "@Armory"
+      }
+    ]
+  }
+]

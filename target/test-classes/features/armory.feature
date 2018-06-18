@@ -1,5 +1,6 @@
 #language:nl
 
+@Armory
 Functionaliteit: Werking van de armory site
 
   Scenario: Navigeren naar Childplease
